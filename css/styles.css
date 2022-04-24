@@ -1,0 +1,135 @@
+/* Balise */
+    body{
+        background-color: #264653;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+        color: #a5eaa0;
+        font-size: 20px;
+    }    
+
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        color: #5d9bf7;
+    }
+
+    input{
+        font-size: 30px;
+        color: #5f0c04;
+        border: solid 2px #a0342a;
+        border-radius: 1rem;
+        background-color: #e44e41;
+        transition: all .2s ease 0s;
+        padding: 0 30px;
+    }
+
+    input:hover{
+        color: #ff8585;
+        border: solid 2px #d44c40;
+        background-color: #83150b;
+    }
+
+
+/* Accueil*/
+    #titre{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+    }
+
+    #logo{
+        margin: 0 auto;
+        align-content: center;
+        width: 700px;
+    }
+
+
+
+
+/* Jeu */
+    .animation{ /* Canvas */
+        background-color: rgb(255, 255, 255);
+        height: 400px;
+        width: 500px;
+        align-content: center;
+        margin: 0 auto;
+
+        font-weight: bold;
+        border-radius: .5rem;
+
+    }
+    #boutonQuitter{
+        position: fixed;
+        right: 0;
+        margin-right: 10px;
+    }
+    
+        /* Couleur */
+        .rouge{
+            color: #f43d3d;
+            font-weight: bolder;
+        }
+        .vert{
+            color: #91ef9e;
+            font-weight: bolder;
+        }
+        .bleu{
+            color: #5198f9;
+            font-weight: bolder;
+        }
+        /* Taille */
+        .petite{
+            font-size: 12px;
+            font-weight: bolder;
+        }
+        .moyenne{
+            font-size: 16px;
+            font-weight: bolder;
+        }
+        .grande{
+            font-size: 20px;
+            font-weight: bolder;
+        }
+    /* Consigne animé*/
+    #canvasConsigne{
+        display: inline-block;
+        background-color: rgb(255, 255, 255);
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+        border-radius: .5rem;
+    }
+
+    #niveau{
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+
+
+/* Bilan */
+    #bilan{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        height: 50%;
+    }
+    
+
+/* Classe divers*/
+    .center{
+        text-align: center;
+    }
+    .gras{
+        font-weight:700;
+    }
+    .mb-10{
+        margin-bottom: 10px;
+    }
+
